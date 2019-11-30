@@ -1,0 +1,175 @@
+@CHARSET "ISO-8859-1";
+
+.wholediv {
+	width: 400px;
+	height: 380px;
+	border: 1px solid LightGray;
+	border-radius: 10px;
+	margin-top: 55px;
+	box-shadow: inset -1px -1px 16px 11px #403838;
+}
+
+}
+.headtext {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+	font-family: courier;
+}
+
+.contact{
+color:#0d0d0dad;
+text-align:center;
+font-size:20px;
+ font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: .05em;
+}
+.formclass {
+	margin-left: 1040px;
+	margin-top: 130px;
+	BACKGROUND-COLOR: #faf8ff69;
+	BORDER-RADIUS: 12PX;
+}
+
+.homepara {
+	font-family: courier;
+	font-weight: 900;
+	margin-top: -353px;
+	margin-left: -314px;
+	width: 950px;
+	background-color: #74bd7d54;
+	overflow: scroll;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	color: black;
+	font-family: courier;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+li a:hover {
+	color: red;
+}
+
+/* TABS */
+h2.inactive {
+	color: #cccccc;
+}
+
+h2.active {
+	color: #0d0d0d;
+	border-bottom: 2px solid #5fbae9;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #56baed;
+	border: none;
+	color: white;
+	/* padding: 15px 80px; */
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 120px;
+	HEIGHT: 37px;
+	-webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+	box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin: 5px 20px 40px 20px;
+}
+
+.selectstyle {
+	height: 37px;
+	width: lightgray;
+	background-color: lightgray;
+	width: 182px;
+	border-radius: 10px;
+}
+
+.bgimagefade {
+	background-image: url('images/fitness.jpg');
+	background-repeat: no-repeat;
+	background-size: inherit;
+}
+
+.homebackground {
+	background-image: url('images/homebg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+.enterdetailsbg{
+	background-image: url('images/enterdetails.jpg');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.bgimagecontact {
+	background-image: url('images/contact.png');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+}
+
+.para {
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 3px;
+	background-color: white;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email],
+	input[type=option] {
+	background-color: LightGray;
+	color: #0d0d0d;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 200px;
+	margin: 5px;
+	border-radius: 5px 5px 5px 5px;
+	border: 2px solid #f6f6f6;
+}
+
+input[type=text]:focus {
+	background-color: #fff;
+	border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder {
+	color: #80ff80;
+}
+
+/* OTHERS */
+*:focus {
+	outline: none;
+}
+
+#icon {
+	width: 60%;
+}
